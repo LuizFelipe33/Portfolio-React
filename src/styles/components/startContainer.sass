@@ -1,0 +1,58 @@
+@use '../variables'
+@use '../mixins'
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap')
+
+.start
+    display: flex
+    flex: 2 1 1
+    position: relative
+    width: 100%
+    padding: 3rem
+    height: 500px
+    padding: 3rem
+    border-radius: variables.$container-border
+
+    #name
+        width: 80%
+        position: relative
+        bottom: 23rem
+        left: 15rem
+
+    #fundo2
+        height: 600px
+        bottom: 120px
+        left: 20rem
+        width: 85%
+        position: relative
+    
+    h1
+        font-family: 'Roboto Mono'
+        font-size: 4rem
+        color: #fff
+
+    p
+        color: #fff
+        position: relative
+        left: -2rem
+        font-family: 'Roboto Mono'
+    
+    h2
+        position: relative
+        left: 3rem
+        font-family: 'Roboto Mono'
+        color: #16d83d
+
+
+    @media(max-width:1200px )
+        #fundo
+            visibility: visible
+
+    @media(max-width:1000px )
+        #fundo2
+            width: 0%
+            visibility: hidden
+
+        #name
+            width: 50%
+            left: -1rem
+        

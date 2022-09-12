@@ -1,0 +1,45 @@
+@use '../variables'
+@use '../mixins'
+
+.container-End
+    flex: 1 1 1 
+    background-color: variables.$bg-color
+    position: relative
+    padding: 3rem
+    border-radius: variables.$container-border
+    top: 5rem
+    width: 100%
+
+    h2
+        color: variables.$body-bg-color
+        font-size: 2.2rem
+        margin-bottom: 1.3rem
+        @include mixins.center
+        justify-content: start
+        gap: 1rem
+
+    p
+        font-size: 1.2rem
+        font-family: 'Roboto Mono', monospace
+        color: variables.$body-bg-color
+        margin-bottom: 2.5rem
+        line-height: 1.5rem
+
+    .btn
+        align-self: start
+        @include mixins.btn
+
+    #cert-name
+        position: relative
+        top: 3.6rem
+
+    .cert-grid
+        padding: 4rem
+        display: flex
+        flex-wrap: wrap
+        gap: 1.5rem
+
+    .card-cert
+        width: 22rem
+        height: 15rem
+ 

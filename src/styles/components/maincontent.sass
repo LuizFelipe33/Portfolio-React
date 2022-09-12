@@ -1,0 +1,35 @@
+@use '../variables'
+@use '../mixins'
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap')
+
+#main-content
+    background-color: variables.$bg-color
+    position: relative
+    top: 5rem
+    flex: 2 1 0
+    padding: 3rem
+    border-radius: variables.$container-border
+
+    section
+        display: flex
+        flex-direction: column
+
+    h2
+        color: variables.$body-bg-color
+        font-size: 2.2rem
+        margin-bottom: 1.3rem
+        @include mixins.center
+        justify-content: start
+        gap: 1rem
+
+    &:after
+        @include mixins.gradient-border
+
+    p
+        font-size: 1.3rem
+        font-family: 'Roboto Mono', monospace
+        color: variables.$body-bg-color
+        margin-bottom: 2.5rem
+        line-height: 1.5rem
+
+    

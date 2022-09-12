@@ -1,0 +1,10 @@
+
+.Luiz h1{
+  font-size: 150px;
+  font-family: 'poppins', sans-serif;
+  line-height: 160px;
+  color: transparent;
+  -webkit-text-stroke: 1px #fff;
+  background: url(C:\Users\LUIZ\Desktop\geral\projetos\react\projeto\react-portifolio\src\imgs\ranking-of.gif);
+  -webkit-background-clip: text;
+}
