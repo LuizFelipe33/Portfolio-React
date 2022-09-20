@@ -2,13 +2,11 @@
 @use '../mixins'
 
 .container-End
-    flex: 1 1 1 
     background-color: variables.$bg-color
     position: relative
     padding: 3rem
     border-radius: variables.$container-border
     top: 5rem
-    width: 100%
 
     h2
         color: variables.$body-bg-color
@@ -42,4 +40,17 @@
     .card-cert
         width: 22rem
         height: 15rem
- 
+
+    @media(max-width:600px )
+        .cert-grid
+            padding: 5rem
+            position: relative
+            top: 2rem
+            left: -20px
+            display: inline
+            flex-wrap: nowrap
+@media(max-width:650px )
+    .container-End
+        top: 3200px
+        position: absolute
+        width: 412px
