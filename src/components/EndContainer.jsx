@@ -4,7 +4,7 @@ import '../styles/components/endContainer.sass'
 
 import web from '../imgs/Web.png'
 import ia from '../imgs/IA.jpg'
-import java from '../imgs/java.png'
+import java from '../imgs/Java.png'
 import ides from '../imgs/IDEs.png'
 import python from '../imgs/pyhton.png'
 import logica from '../imgs/logica.png'
